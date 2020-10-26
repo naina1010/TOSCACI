@@ -1,6 +1,10 @@
 # Starter pipeline
 - task: CmdLine@2
   inputs:
+    script: 'echo Hello world'
+    workingDirectory: 'naina1010.TOSCACI'
+- task: CmdLine@2
+  inputs:
     script: |
       echo Write your commands here
       
